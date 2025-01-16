@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on nvim.rocks</title>
+    <title>nvim.rocks</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on nvim.rocks</description>
+    <description>Recent content on nvim.rocks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2025 10:52:49 +0200</lastBuildDate>

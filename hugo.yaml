@@ -1,0 +1,13 @@
+---
+baseURL: 'https://nvim.rocks/'
+languageCode: 'en-us'
+title: 'nvim.rocks'
+theme: 'nvim'
+enableEmoji: true
+
+params:
+  env: production
+  title: "nvim.rocks"
+  description: "Everything Nvim"
+  defaultTheme: auto
+...

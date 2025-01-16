@@ -5,6 +5,12 @@ title: 'nvim.rocks'
 theme: 'nvim'
 enableEmoji: true
 
+googleAnalytics: 'G-3PWRVH5DML'
+
+# services:
+#   googleAnalytics:
+#     id: G-3PWRVH5DML
+
 params:
   env: production
   title: "nvim.rocks"

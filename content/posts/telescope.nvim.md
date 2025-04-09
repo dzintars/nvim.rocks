@@ -1,6 +1,6 @@
 ---
 title: "telescope.nvim"
-date: 2025-04-09T13:47:27.485126
+date: 2025-04-09T13:55:23.083228
 github_url: https://github.com/nvim-telescope/telescope.nvim
 draft: false
 ---

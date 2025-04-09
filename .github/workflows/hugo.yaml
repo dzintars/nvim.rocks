@@ -29,6 +29,30 @@ defaults:
     shell: bash
 
 jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate posts
+        run: python scripts/generate_posts.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add content/posts/
+          git commit -m "Update generated posts" || echo "No changes"
+          git push
+
   # Build job
   build:
     runs-on: ubuntu-latest

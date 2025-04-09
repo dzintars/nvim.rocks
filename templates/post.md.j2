@@ -1,0 +1,14 @@
+---
+title: "{{ repo.name }}"
+date: {{ now }}
+github_url: {{ repo.html_url }}
+---
+
+## {{ repo.full_name }}
+
+{{ repo.description }}
+
+- ⭐ Stars: {{ repo.stargazers_count }}
+- 🍴 Forks: {{ repo.forks_count }}
+- 🧑‍💻 Contributors: {{ contributors }}
+- 📅 Last Push: {{ repo.pushed_at }}

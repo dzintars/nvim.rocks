@@ -1,6 +1,6 @@
 ---
 title: "lazy.nvim"
-date: 2025-04-09T13:55:23.297874
+date: 2025-04-09T14:00:43.383565
 github_url: https://github.com/folke/lazy.nvim
 draft: false
 ---

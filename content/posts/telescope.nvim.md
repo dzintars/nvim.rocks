@@ -2,7 +2,7 @@
 title: "telescope.nvim"
 date: 2025-04-09T13:47:27.485126
 github_url: https://github.com/nvim-telescope/telescope.nvim
-draft = false
+draft: false
 ---
 
 ## nvim-telescope/telescope.nvim
